@@ -1,0 +1,1197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>771</width>
+    <height>706</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 24pt &quot;Helvetica&quot;;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="budget_background">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>511</width>
+      <height>681</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #666666;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>511</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(30, 30, 30);
+font: 36pt &quot;Helvetica&quot;;
+background-color: rgb(255, 164, 97);</string>
+    </property>
+    <property name="text">
+     <string>Budget</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemName1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #777;
+font: 18pt &quot;Helvetica&quot;;
+color: rgb(206, 204, 208);
+border: 0.5px solid #777;</string>
+    </property>
+    <property name="text">
+     <string>Rent</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemValue1">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>80</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #444;
+border: 0.5px solid #444;</string>
+    </property>
+    <property name="text">
+     <string>849.99</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemName2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>130</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #777;
+font: 18pt &quot;Helvetica&quot;;
+color: rgb(206, 204, 208);
+border: 0.5px solid #777;</string>
+    </property>
+    <property name="text">
+     <string>Power</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemValue2">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>130</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #444;
+border: 0.5px solid #444;</string>
+    </property>
+    <property name="text">
+     <string>80</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemName3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>180</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #777;
+font: 18pt &quot;Helvetica&quot;;
+color: rgb(206, 204, 208);
+border: 0.5px solid #777;</string>
+    </property>
+    <property name="text">
+     <string>Phone</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemValue3">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>180</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #444;
+border: 0.5px solid #444;</string>
+    </property>
+    <property name="text">
+     <string>69.99</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemValue4">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>230</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #444;
+border: 0.5px solid #444;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemName6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>330</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #777;
+font: 18pt &quot;Helvetica&quot;;
+color: rgb(206, 204, 208);
+border: 0.5px solid #777;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemName4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>230</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #777;
+font: 18pt &quot;Helvetica&quot;;
+color: rgb(206, 204, 208);
+border: 0.5px solid #777;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemValue6">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>330</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #444;
+border: 0.5px solid #444;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemName5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>280</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #777;
+font: 18pt &quot;Helvetica&quot;;
+color: rgb(206, 204, 208);
+border: 0.5px solid #777;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemValue5">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>280</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #444;
+border: 0.5px solid #444;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemValue9">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>480</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #444;
+border: 0.5px solid #444;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemName9">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>480</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #777;
+font: 18pt &quot;Helvetica&quot;;
+color: rgb(206, 204, 208);
+border: 0.5px solid #777;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemName7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>380</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #777;
+font: 18pt &quot;Helvetica&quot;;
+color: rgb(206, 204, 208);
+border: 0.5px solid #777;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemValue8">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>430</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #444;
+border: 0.5px solid #444;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemValue7">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>380</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #444;
+border: 0.5px solid #444;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemName8">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>430</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #777;
+font: 18pt &quot;Helvetica&quot;;
+color: rgb(206, 204, 208);
+border: 0.5px solid #777;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemName10">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>530</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #777;
+font: 18pt &quot;Helvetica&quot;;
+color: rgb(206, 204, 208);
+border: 0.5px solid #777;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemValue12">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>630</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #444;
+border: 0.5px solid #444;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemValue10">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>530</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #444;
+border: 0.5px solid #444;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemName11">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>580</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #777;
+font: 18pt &quot;Helvetica&quot;;
+color: rgb(206, 204, 208);
+border: 0.5px solid #777;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemValue11">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>580</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #444;
+border: 0.5px solid #444;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemName13">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>80</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #777;
+font: 18pt &quot;Helvetica&quot;;
+color: rgb(206, 204, 208);
+border: 0.5px solid #777;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemValue22">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>530</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #444;
+border: 0.5px solid #444;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemName14">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>130</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #777;
+font: 18pt &quot;Helvetica&quot;;
+color: rgb(206, 204, 208);
+border: 0.5px solid #777;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemValue14">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>130</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #444;
+border: 0.5px solid #444;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemName24">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>630</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #777;
+font: 18pt &quot;Helvetica&quot;;
+border: 0.5px solid #777;
+color: rgb(206, 204, 208);</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemValue20">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>430</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #444;
+border: 0.5px solid #444;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemValue15">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>180</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #444;
+border: 0.5px solid #444;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemValue17">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>280</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #444;
+border: 0.5px solid #444;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemValue24">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>630</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #444;
+border: 0.5px solid #444;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemName20">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>430</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #777;
+font: 18pt &quot;Helvetica&quot;;
+color: rgb(206, 204, 208);
+border: 0.5px solid #777;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemValue16">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>230</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #444;
+border: 0.5px solid #444;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemName15">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>180</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #777;
+font: 18pt &quot;Helvetica&quot;;
+color: rgb(206, 204, 208);
+border: 0.5px solid #777;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemValue19">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>380</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #444;
+border: 0.5px solid #444;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemName21">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>480</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #777;
+font: 18pt &quot;Helvetica&quot;;
+color: rgb(206, 204, 208);
+border: 0.5px solid #777;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemName22">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>530</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #777;
+font: 18pt &quot;Helvetica&quot;;
+color: rgb(206, 204, 208);
+border: 0.5px solid #777;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemName17">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>280</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #777;
+font: 18pt &quot;Helvetica&quot;;
+color: rgb(206, 204, 208);
+border: 0.5px solid #777;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemName18">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>330</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #777;
+font: 18pt &quot;Helvetica&quot;;
+color: rgb(206, 204, 208);
+border: 0.5px solid #777;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemValue23">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>580</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #444;
+border: 0.5px solid #444;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemValue21">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>480</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #444;
+border: 0.5px solid #444;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemName19">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>380</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #777;
+font: 18pt &quot;Helvetica&quot;;
+color: rgb(206, 204, 208);
+border: 0.5px solid #777;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemValue13">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>80</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #444;
+border: 0.5px solid #444;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemValue18">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>330</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #444;
+border: 0.5px solid #444;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemName16">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>230</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #777;
+font: 18pt &quot;Helvetica&quot;;
+color: rgb(206, 204, 208);
+border: 0.5px solid #777;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemName23">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>580</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #777;
+font: 18pt &quot;Helvetica&quot;;
+color: rgb(206, 204, 208);
+border: 0.5px solid #777;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemName12">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>630</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #777;
+font: 18pt &quot;Helvetica&quot;;
+color: rgb(206, 204, 208);
+border: 0.5px solid #777;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>0</y>
+      <width>261</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(30, 30, 30);
+font: 36pt &quot;Helvetica&quot;;
+background-color: rgb(255, 255, 126);</string>
+    </property>
+    <property name="text">
+     <string>Salary</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="budget_background_2">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>70</y>
+      <width>261</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #666666;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="salary">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>80</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #444;
+border: 0.5px solid #444;</string>
+    </property>
+    <property name="text">
+     <string>1000</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="budget_background_3">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>610</y>
+      <width>261</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #666666;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>540</y>
+      <width>261</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(30, 30, 30);
+font: 36pt &quot;Helvetica&quot;;
+background-color: rgb(255, 164, 97);</string>
+    </property>
+    <property name="text">
+     <string>Budget Total</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>400</y>
+      <width>261</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(30, 30, 30);
+font: 30pt &quot;Helvetica&quot;;
+background-color: rgb(255, 164, 97);</string>
+    </property>
+    <property name="text">
+     <string>Budget vs Salary</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="netBackground">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>470</y>
+      <width>261</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #666666;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="budgetTotal">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>620</y>
+      <width>181</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #444;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="netTotal">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>480</y>
+      <width>181</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #444;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="saveButton">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>140</y>
+      <width>261</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 255, 248);
+border: 1px solid rgb(95, 255, 252);</string>
+    </property>
+    <property name="text">
+     <string>Save</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>140</y>
+      <width>251</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(95, 255, 252);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="loadButton">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>270</y>
+      <width>261</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(101, 135, 255);
+border: 1px solid rgb(101, 135, 255);</string>
+    </property>
+    <property name="text">
+     <string>load</string>
+    </property>
+   </widget>
+   <zorder>label_5</zorder>
+   <zorder>budget_background</zorder>
+   <zorder>label</zorder>
+   <zorder>itemName1</zorder>
+   <zorder>itemValue1</zorder>
+   <zorder>itemName2</zorder>
+   <zorder>itemValue2</zorder>
+   <zorder>itemName3</zorder>
+   <zorder>itemValue3</zorder>
+   <zorder>itemValue4</zorder>
+   <zorder>itemName6</zorder>
+   <zorder>itemName4</zorder>
+   <zorder>itemValue6</zorder>
+   <zorder>itemName5</zorder>
+   <zorder>itemValue5</zorder>
+   <zorder>itemValue9</zorder>
+   <zorder>itemName9</zorder>
+   <zorder>itemName7</zorder>
+   <zorder>itemValue8</zorder>
+   <zorder>itemValue7</zorder>
+   <zorder>itemName8</zorder>
+   <zorder>itemName10</zorder>
+   <zorder>itemValue12</zorder>
+   <zorder>itemValue10</zorder>
+   <zorder>itemName11</zorder>
+   <zorder>itemValue11</zorder>
+   <zorder>itemName13</zorder>
+   <zorder>itemValue22</zorder>
+   <zorder>itemName14</zorder>
+   <zorder>itemValue14</zorder>
+   <zorder>itemName24</zorder>
+   <zorder>itemValue20</zorder>
+   <zorder>itemValue15</zorder>
+   <zorder>itemValue17</zorder>
+   <zorder>itemValue24</zorder>
+   <zorder>itemName20</zorder>
+   <zorder>itemValue16</zorder>
+   <zorder>itemName15</zorder>
+   <zorder>itemValue19</zorder>
+   <zorder>itemName21</zorder>
+   <zorder>itemName22</zorder>
+   <zorder>itemName17</zorder>
+   <zorder>itemName18</zorder>
+   <zorder>itemValue23</zorder>
+   <zorder>itemValue21</zorder>
+   <zorder>itemName19</zorder>
+   <zorder>itemValue13</zorder>
+   <zorder>itemValue18</zorder>
+   <zorder>itemName16</zorder>
+   <zorder>itemName23</zorder>
+   <zorder>itemName12</zorder>
+   <zorder>budget_background_2</zorder>
+   <zorder>label_2</zorder>
+   <zorder>salary</zorder>
+   <zorder>budget_background_3</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>netBackground</zorder>
+   <zorder>budgetTotal</zorder>
+   <zorder>netTotal</zorder>
+   <zorder>saveButton</zorder>
+   <zorder>loadButton</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>771</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>itemName1</tabstop>
+  <tabstop>itemValue1</tabstop>
+  <tabstop>itemName2</tabstop>
+  <tabstop>itemValue2</tabstop>
+  <tabstop>itemName3</tabstop>
+  <tabstop>itemValue3</tabstop>
+  <tabstop>itemName4</tabstop>
+  <tabstop>itemValue4</tabstop>
+  <tabstop>itemName5</tabstop>
+  <tabstop>itemValue5</tabstop>
+  <tabstop>itemName6</tabstop>
+  <tabstop>itemValue6</tabstop>
+  <tabstop>itemName7</tabstop>
+  <tabstop>itemValue7</tabstop>
+  <tabstop>itemName8</tabstop>
+  <tabstop>itemValue8</tabstop>
+  <tabstop>itemName9</tabstop>
+  <tabstop>itemValue9</tabstop>
+  <tabstop>itemName10</tabstop>
+  <tabstop>itemValue10</tabstop>
+  <tabstop>itemName11</tabstop>
+  <tabstop>itemValue11</tabstop>
+  <tabstop>itemName12</tabstop>
+  <tabstop>itemValue12</tabstop>
+  <tabstop>itemName13</tabstop>
+  <tabstop>itemValue13</tabstop>
+  <tabstop>itemName14</tabstop>
+  <tabstop>itemValue14</tabstop>
+  <tabstop>itemName15</tabstop>
+  <tabstop>itemValue15</tabstop>
+  <tabstop>itemName16</tabstop>
+  <tabstop>itemValue16</tabstop>
+  <tabstop>itemName17</tabstop>
+  <tabstop>itemValue17</tabstop>
+  <tabstop>itemName18</tabstop>
+  <tabstop>itemValue18</tabstop>
+  <tabstop>itemName19</tabstop>
+  <tabstop>itemValue19</tabstop>
+  <tabstop>itemName20</tabstop>
+  <tabstop>itemValue20</tabstop>
+  <tabstop>itemName21</tabstop>
+  <tabstop>itemValue21</tabstop>
+  <tabstop>itemName22</tabstop>
+  <tabstop>itemValue22</tabstop>
+  <tabstop>itemName23</tabstop>
+  <tabstop>itemValue23</tabstop>
+  <tabstop>itemName24</tabstop>
+  <tabstop>itemValue24</tabstop>
+  <tabstop>salary</tabstop>
+  <tabstop>saveButton</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
